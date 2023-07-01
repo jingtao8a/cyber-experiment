@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: whu/tues
+    restart: always
+    ports:
+      - "8231:80"
+      - "2222:22"
